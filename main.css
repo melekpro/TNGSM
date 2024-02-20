@@ -1,8 +1,11 @@
 /* تنسيق الهيدر */
 header {
     text-align: center;
-    background-color: #007a3d; /* اللون الأخضر */
-    color: #ffffff; /* اللون الأبيض */
+    background-color: #ffffff; /* اللون الأبيض */
+    background-image: url('flag.png'); /* استبدل 'flag.png' بمسار الصورة الخاص بك */
+    background-size: cover;
+    background-position: top;
+    color: #000000; /* اللون الأسود */
     padding: 20px;
 }
 
@@ -39,4 +42,20 @@ a {
 
 a:hover {
     color: #ffffff; /* اللون الأبيض */
+}
+
+/* تصميم وسائط للأجهزة المحمولة */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    header p {
+        font-size: 1em;
+    }
+    main {
+        margin-top: 10px;
+    }
+    li {
+        margin: 0 5px;
+    }
 }
