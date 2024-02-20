@@ -1,0 +1,42 @@
+/* تنسيق الهيدر */
+header {
+    text-align: center;
+    background-color: #007a3d; /* اللون الأخضر */
+    color: #ffffff; /* اللون الأبيض */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* تنسيق الرئيسية */
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #bf0a30; /* اللون الأحمر */
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: #ffffff; /* اللون الأبيض */
+}
